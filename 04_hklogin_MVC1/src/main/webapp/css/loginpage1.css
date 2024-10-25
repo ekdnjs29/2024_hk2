@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+	margin: 10px;
+	padding:0px;
+}
+
+body{
+	background-color: #e9e9e9;
+}
+
+button{
+ 	border: 1px solid black; 
+ 	background-color:black;
+ 	border-radius:15px;
+ 	width:300px;
+	height: 40px;
+	color:darkorchid;
+	font-weight: bold;	
+}
+
+form{
+	width: 300px;
+	margin: 10% auto;
+}
+
+input, button{
+	margin:5px;
+}
+
+input[name]{
+	border:0px;
+	width:278px;
+	height: 40px;
+	border-radius: 15px;
+	padding-left: 20px;
+}
+
+input[type="checkbox"]  {
+	margin-bottom: -1.5px;
+	margin-right: 0px;
+	margin-left: 10px;
+	appearance: none;
+	background: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	height: 16px;
+	outline: 0;
+	width: 16px;
+}
+input[type="checkbox"]::after {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  content: '';
+  display: none;
+  height: 40%;
+  left: 40%;
+  position: relative;
+  top: 20%;
+  transform: rotate(45deg);
+  width: 15%;
+}
+input[type="checkbox"]:checked {
+  background:  #5dc9b6;
+ /*  #6eeac1; */
+}
+input[type="checkbox"]:checked::after {
+  display: block;
+}
+
+
+
+

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+#navbar{
+	background-color: black;
+	height: 60px;
+}
+
+.navbar ul{
+	width:300px ;
+	margin:0px auto;
+}
+
+.navbar li{
+	display: inline-block ;
+	margin-top:18px;
+	font-size: 20px;
+	color:white;
+	margin-left:30px;
+}
+
+.footer{
+	position: fixed;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	text-align: center;
+	color:white;
+	background-color: black;
+	line-height: 50px;
+	height: 60px;
+}
+
+.lead{
+	margin: 10px; 	
+	text-align: right;" 
+}
+
+ table{
+ 	border-collapse: collapse;
+ 	
+ } 
+ 
+ 
+form{
+	width:100%;
+	margin-top: 35px;
+	margin-left: 25px;
+	
+}
+
+input {
+	width:90%;
+	max-width: 900px; /* 최대 너비 */
+    min-width: 200px; /* 최소 너비 */
+	height: 40px;
+	border-radius: 15px;
+	padding-left: 15px ;
+	margin-top:15px;
+	
+	box-sizing: border-box;
+}
+ 
+ 
